@@ -1,5 +1,5 @@
 server:
-  port: 9091
+  port: 8761
 
 eureka:
   instance:
@@ -10,4 +10,4 @@ eureka:
     serviceUrl:
       defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
   server:
-    wait-time-in-ms-when-sync-empty: 3000
+    wait-time-in-ms-when-sync-empty: 0
