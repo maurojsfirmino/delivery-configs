@@ -16,9 +16,9 @@ eureka:
 spring:
     datasource:
         driver-class-name: com.mysql.cj.jdbc.Driver
-        password: 'administrador'
+        password: '1234'
         platform: mysql
-        url: jdbc:mysql://localhost/db_norma?verifyServerCertificate=false&useSSL=false&requireSSL=false
+        url: jdbc:mysql://localhost/normas?verifyServerCertificate=false&useSSL=false&requireSSL=false
         username: root
     jpa:
         database-platform: org.hibernate.dialect.MySQLDialect
